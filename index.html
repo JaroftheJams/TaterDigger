@@ -1,7 +1,10 @@
 <link rel="stylesheet" type="text/css" href="interface.css" />
 <!-- main script below -->
-<body style="background-color:#572e0a; background-image: url('assets/potato_crate.png'), url('assets/background.png'); background-position: left, center;" onload="startup()">
+<body style="background-color:#572e0a; background: url('assets/background.png'); height: 100%; background-position: center;  background-repeat: no-repeat;  background-size: cover;" onload="startup()">
 
+<!--<div class="grass"></div> -->
+<div class="crate">
+<span class="logo"><img src="assets/logo.png" width="600" height="300"></span>
 <!-- POTATO GIVING BUTTONS
 <span class ="potatoButtons">
 <button class="button" type="button" onMousedown="addPotato(1)"><img src="assets/beeeeeeeg_potaat.png" width="175" height="175"></button>
@@ -29,7 +32,7 @@
 <button class="button" type="button" onMousedown="buyPig()"><img src="assets/pink_piggy.png" width="175" height="175"></button>
 </div>
 <span id="pigs" class="pigCounter">0</span>
-
+</div>
 <!-- THING BUYING BUTTONS -->
 <!--
 <span class="gameButtons">

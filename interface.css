@@ -1,20 +1,43 @@
+.crate {
+	 width: 1920px;
+        height: 1080px;
+        background-image: url("assets/potato_crate.png");
+        background-size: contain; /* try other properties here like cover, contain, etc */
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+		max-width: 100%;
+		max-height: 100%;
+		 -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.logo {
+	position: absolute;
+	top: 21%;
+	left: 50%;
+transform: translate(-50%, -50%);
+}
+
 .potatoLine {
-  position: relative;
-  top: 42%;
+  position: absolute;
+  top: 43%;
   left: 20%;
   transform: translate(-50%, -50%);
   z-index: 1;
   display:inline-block;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
+  max-width: 100%;
+		max-height: 100%;
 }
 
 .potatoCounter { 
   position: absolute;
-  top: 41%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
- font-size: 168px;
+ font-size: 8vw;
  cursor: pointer;
  font-family: "Titillium Web", fantasy;
   -webkit-text-fill-color: black;
@@ -27,7 +50,7 @@
 
 .plantLine {
   position: absolute;
-  top: 66%;
+  top: 65%;
   left: 19%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -39,10 +62,10 @@
 
 .plantCounter { 
   position: absolute;
-  top: 66%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
- font-size: 168px;
+ font-size: 8vw;
  cursor: pointer;
  font-family: "Titillium Web", fantasy;
   -webkit-text-fill-color: black;
@@ -53,7 +76,7 @@
 
 .pigLine {
   position: absolute;
-  top: 91%;
+  top: 88%;
   left: 18%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -66,10 +89,10 @@
 
 .pigCounter { 
   position: absolute;
-  top: 91%;
+  top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
- font-size: 168px;
+ font-size: 8vw;
  cursor: pointer;
  font-family: "Titillium Web", fantasy;
   -webkit-text-fill-color: black;
